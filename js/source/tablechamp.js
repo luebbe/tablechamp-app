@@ -1333,6 +1333,8 @@
         var gameType = '';
         if ('air-hockey' === localData.settings.gameType) {
             gameType = 'Air Hockey';
+        } else if ('badminton' === localData.settings.gameType) {
+            gameType = 'Badminton';
         } else if ('billiards' === localData.settings.gameType) {
             gameType = 'Billiards';
         } else if ('foosball' === localData.settings.gameType) {
