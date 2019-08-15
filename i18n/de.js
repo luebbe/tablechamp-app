@@ -18,7 +18,7 @@ var i18n = {
 			"bothTeamsNumber" : "Wählen Sie die gleiche Anzahl von Spielern auf beiden Teams aus",
 			"colorUpdated" : "Farbe aktualisiert",
 			"gameAdded" : "Spiel hinzugefügt",
-			"gameTypeUpdated" : "Spieltyp Aktualisiert",
+			"gameTypeUpdated" : "Spieltyp aktualisiert",
 			"gameUndone" : "Spiel erfolgreich rückgängig gemacht",
 			"keepPlaying" : "Weiter spielen",
 			"maxTwo" : "Wählen Sie aus jedem Team maximal zwei Spieler aus",
@@ -31,7 +31,8 @@ var i18n = {
 			"playerStatusUpdated" : "Spieler Status aktualisiert",
 			"playerUpdated" : "Spieler aktualisiert",
 			"scoreBoth" : "Geben Sie eine Punktzahl für beide Mannschaften ein",
-			"undo" : "Rückgängig machen"
+			"undo" : "Rückgängig machen",
+			"matchTypeUpdated" : "Ergebnistyp aktualisiert"
 		},
 		"playersRow" : {
 			"deleteLink" : "Löschen"
@@ -49,12 +50,16 @@ var i18n = {
 			"gameAirHockey" : "Airhockey",
 			"gameBadminton" : "Badminton",
 			"gameBilliards" : "Billard",
-			"gameFoosball" : "Fußball",
+			"gameFoosball" : "Tischfußball",
 			"gameShuffleboard" : "Shuffleboard",
 			"gameTableTennis" : "Tischtennis",
 			"language" : "Sprache",
 			"orgName" : "Wie lautet der Name Ihres Unternehmens",
-			"whatGame" : "Welches Spiel werden Sie spielen"
+			"whatGame" : "Welches Spiel werden Sie spielen",
+			"whatMatchType" : "Welche Spiele wollen Sie verfolgen",
+			"matchTypeSingles" : "Einzel",
+			"matchTypeDoubles" : "Doppel",
+			"matchTypeBoth" : "Beides",
 		},
 		"settingsColors" : {
 			"highlightColor" : "Hervorhebungsfarbe",
@@ -90,8 +95,12 @@ var i18n = {
 			"gamesLost" : "Spiele verloren",
 			"gamesPlayed" : "Spiele gespielt",
 			"gamesWon" : "Gewonnene Spiele",
+			"winPercentage" : "Prozent gewonnen",
 			"ranking" : "Rang",
 			"singles" : "Einzel"
+		},
+		"games" : {
+			"gameHistory" : "Spielverlauf"
 		}
 	},
 	"index" : {
