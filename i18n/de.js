@@ -47,6 +47,7 @@ var i18n = {
 		"settingsBasics" : {
 			"companyOrClub" : "Name des Unternehmens oder Clubs",
 			"gameAirHockey" : "Airhockey",
+			"gameBadminton" : "Badminton",
 			"gameBilliards" : "Billard",
 			"gameFoosball" : "Fußball",
 			"gameShuffleboard" : "Shuffleboard",

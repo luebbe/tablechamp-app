@@ -1189,6 +1189,7 @@
         $('.sidebar-body').html(tmpl('settingsBasics', {
             "companyOrClub" : i18n.app.settingsBasics.companyOrClub,
             "gameAirHockey" : i18n.app.settingsBasics.gameAirHockey,
+            "gameBadminton" : i18n.app.settingsBasics.gameBadminton,
             "gameBilliards" : i18n.app.settingsBasics.gameBilliards,
             "gameFoosball" : i18n.app.settingsBasics.gameFoosball,
             "gameShuffleboard" : i18n.app.settingsBasics.gameShuffleboard,
@@ -1355,13 +1356,13 @@
                 dbPlayers.set({ 
                     "doubles_last_movement": '',
                     "doubles_lost": 0,
-                    "doubles_points": 100,
+                    "doubles_points": 1000,
                     "doubles_won": 0,
                     "dt": Date.now(),
                     "name": player,
                     "singles_last_movement": '',
                     "singles_lost": 0,
-                    "singles_points": 100,
+                    "singles_points": 1000,
                     "singles_won": 0,
                     "status": true 
                 }).then(function() {

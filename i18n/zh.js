@@ -47,6 +47,7 @@ var i18n = {
 		"settingsBasics" : {
 			"companyOrClub" : "公司或俱樂部名稱",
 			"gameAirHockey" : "空氣曲棍球",
+			"gameBadminton" : "Badminton",
 			"gameBilliards" : "台球",
 			"gameFoosball" : "桌上足球",
 			"gameShuffleboard" : "沙狐球",
