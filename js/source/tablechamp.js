@@ -466,10 +466,22 @@
                 var doublesLastMovement = (doublesArray[i].doubles_last_movement) ? Math.round(parseFloat(doublesArray[i].doubles_last_movement)): '';
                 var doublesPoints = (doublesArray[i].doubles_points) ? Math.round(parseFloat(doublesArray[i].doubles_points)) : '';
                 if (i < 3) {
+                    var medal = '';
+                    switch (i) {
+                        case 0:
+                            medal = '🥇';
+                            break;
+                        case 1:
+                            medal = '🥈';
+                            break;
+                        case 2:
+                            medal = '🥉';
+                            break;
+                    }
                     doublesTopRankings += tmpl('rankingsRow', {
                         'key': doublesArray[i].key,
                         'lastMovement': rankingMovementStyles(doublesLastMovement),
-                        'name': doublesArray[i].name,
+                        'name': medal + doublesArray[i].name,
                         'points': doublesPoints,
                         'rank': doublesArray[i].doubles_rank,
                         'type': 'doubles'
@@ -685,10 +697,22 @@
                 var singlesLastMovement = (singlesArray[i].singles_last_movement) ? Math.round(parseFloat(singlesArray[i].singles_last_movement)): '';
                 var singlesPoints = (singlesArray[i].singles_points) ? Math.round(parseFloat(singlesArray[i].singles_points)) : '';
                 if (i < 3) {
+                    var medal = '';
+                    switch (i) {
+                        case 0:
+                            medal = '🥇';
+                            break;
+                        case 1:
+                            medal = '🥈';
+                            break;
+                        case 2:
+                            medal = '🥉';
+                            break;
+                    }
                     singlesTopRankings += tmpl('rankingsRow', {
                         'key': singlesArray[i].key,
                         'lastMovement': rankingMovementStyles(singlesLastMovement),
-                        'name': singlesArray[i].name,
+                        'name': medal + singlesArray[i].name,
                         'points': singlesPoints,
                         'rank': singlesArray[i].singles_rank,
                         'type': 'singles'
